@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> my static website </title>
+
+    <!-- external style sheet -->
+    <!-- css ke sath link krne ke liye use krte hai -->
+    <!-- rel= refrence ke liy use hota hai -->
+    <style>
+        html {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header>h1 {
+            font-weight: 400;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 3rem;
+        }
+
+        li {
+            list-style: none;
+            /* by defolt html-root - element--font size- 16px or 1rem -16px  */
+            /* px value- itni responsible nhi hoti but rem value- responsible hoti hai */
+            font-size: 1.2rem;
+
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav {
+            position: relative;
+            top: 1rem;
+            width: 22rem;
+
+        .show image {
+            width: 95vw;
+              margin: 1rem;
+            /* responsible */
+            /* view width */
+            
+  
+  
+}
+        }
+
+        .c1 {
+            display: flex;
+            margin: 1rem;
+        }
+
+        body {
+            background-color: rgb(255, 0, 200);
+        }
+
+
+
+        .container {
+            text-align: center;
+            margin-right: 2rem;
+            padding: 1rem;
+
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 2rem;
+            color: white;
+            background-color: black;
+            padding: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- static website create krne jaa rehe hai -->
+
+    <header>
+        <h1>DEV 101 </h1>
+        <nav>
+            <ul>
+                <li><a href="">HTML5</a></li>
+                <li><a href="">CSS3</a></li>
+                <li><a href="">JavaScript</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section>
+        <!-- hamm ..laga kr ek ek folder up up ja skte hai -->
+
+        <img src="./lap.jpeg" alt="laptop image" class="show image">
+    </section>
+
+
+    <article class="c1">
+        <div class=" container">
+            <img src="./html.png" alt="">
+            <h1>HTML</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt commodi nam aspernatur corrupti, ullam dolores ea voluptas consectetur
+                distinctio eaque!</p>
+        </div>
+
+        <div class=" container">
+            <img src="./css.png" alt="">
+            <h1>CSS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Repellendus inventore ex ea fugit consectetur esse odio dignissimos tempora! Unde,
+                harum aspernatur.</p>
+
+        </div>
+        <div class=" container">
+            <img src="./icon.png" alt="">
+            <h1>JavaScript</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus consequuntur perspiciatis inventore illo, facere,
+                vitae ad ducimus est atque aut, et facilis!</p>
+
+        </div>
+    </article>
+    <footer>
+        <div class="footer">
+            &copy; RITIK 2022
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
